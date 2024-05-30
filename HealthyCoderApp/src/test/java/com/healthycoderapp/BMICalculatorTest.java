@@ -5,7 +5,7 @@ import org.junit.jupiter.api.function.Executable;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class BMICalculatorTest {
+class xBMICalculatorTest {
 
 
     @Test
@@ -57,6 +57,6 @@ class BMICalculatorTest {
             // here we create an executable and pass it to the assertion so it can be executed.
         //then
         assertThrows(ArithmeticException.class, executable);
-        
+
     }
 }
